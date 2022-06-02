@@ -25,7 +25,7 @@ const Stack = () => {
                                 index % 2 !== 0 ? 'animate-bounce' : 'animate-bounceFirst'
                               }`}
                         >
-                            <LazyLoadImage effect='blur' src={stack.img} alt={stack.alt} />
+                            <LazyLoadImage effect='blur' src={stack.img} alt={stack.alt} height="110px" width="110px" />
                         </span>
                     )
                 })}

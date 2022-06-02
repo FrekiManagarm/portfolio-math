@@ -1,7 +1,7 @@
 import React from 'react';
 import Tilt from 'react-tilt';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-// import GitHubCalendar from 'react-github-calendar';
+import GitHubCalendar from 'react-github-calendar';
 
 export default function Work() {
   return (
@@ -56,7 +56,8 @@ export default function Work() {
         </Tilt>
         </div>
     </div>
-    {/* <div className='flex justify-center '>
+    {/* <div className='flex flex-col justify-center bg-gray-400 p-10'>
+        <h3>Mes contributions</h3>
         <GitHubCalendar username='FrekiManagarm'  />
     </div> */}
   </>

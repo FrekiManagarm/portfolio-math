@@ -35,7 +35,7 @@ export const content = {
           alt: 'nextjs',
         },
         {
-          img: '../../public/assets/flutter_icon.svg',
+          img: 'https://i.imgur.com/cIThx8M.png',
           alt: 'flutter',
         },
         {
