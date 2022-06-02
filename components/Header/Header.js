@@ -18,7 +18,7 @@ export default function Header() {
         className="min-h-screen flex items-center justify-center"
         id="header"
     >
-        <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
+        <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between sm:flex-col">
             <div className="w-full md:w-2/5" data-aos="fade-left" data-aos-delay="1000">
                 <Tilt>
                     <img src={content.header.img} className="rounded-full" />

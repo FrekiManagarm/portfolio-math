@@ -1,12 +1,12 @@
 import React from 'react';
 import Tilt from 'react-tilt';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import GitHubCalendar from 'react-github-calendar';
+// import GitHubCalendar from 'react-github-calendar';
 
 export default function Work() {
   return (
       <>
-        <div id="mywork" className="min-h-screen bg-gray-400 flex space-x-20 justify-center items-center">
+        <div id="mywork" className="min-h-screen flex-wrap bg-gray-400 flex space-x-20 justify-center items-center">
         <div>
         <Tilt>
             <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col justify-between w-96 sm:w-96 h-96 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer rounded-2xl" style={{ backgroundImage: `url('https://i.imgur.com/BYRU2ft.jpg')`}}>
@@ -58,7 +58,7 @@ export default function Work() {
     </div>
     {/* <div className='flex flex-col justify-center bg-gray-400 p-10'>
         <h3>Mes contributions</h3>
-        <GitHubCalendar username='FrekiManagarm'  />
+        <GitHubCalendar username='FrekiManagarm' year={new Date().getFullYear()} loading  />
     </div> */}
   </>
   );
