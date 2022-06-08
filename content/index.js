@@ -50,6 +50,16 @@ export const content = {
       ],
       desc: `Cet environnement me permet d'être à l'aise autant sur le Front-End grâce à NextJS(Web) et Flutter ou React Native(Mobile), qu'en Back-End avec Laravel et MySQL en Base de Données.`,
     },
+    experiences: {
+      title: 'Experiences',
+      experiences: [
+        {
+          title: 'Développeur Web',
+          company: 'Kweezine',
+          date: 'Octobre 2020 - Aujourd\'hui',
+        },
+      ]
+    },
     work: {
       title: 'Mes Projets',
       img: 'https://i.imgur.com/ZOzrb6c.jpg',
