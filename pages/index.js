@@ -4,9 +4,7 @@ import AOS from 'aos'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 
-export default function Home(props) {
-
-  console.log(props);
+export default function Home() {
 
   useEffect(() => {
     AOS.init();
