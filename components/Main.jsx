@@ -1,6 +1,7 @@
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import Link from 'next/link';
 
 const Main = () => {
   return (
