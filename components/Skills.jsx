@@ -16,7 +16,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image
                   src='https://i.imgur.com/QSZW8g0.png'
-                  width='64px'
+                  width='100px'
                   height='64px'
                   alt='/'
                 />
@@ -30,14 +30,14 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../public/assets/skills/css.png'
+                  src='https://i.imgur.com/1qHulW6.png'
                   width='64px'
                   height='64px'
                   alt='/'
                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>JavaScript</h3>
+                <h3>Flutter</h3>
               </div>
             </div>
           </div>
@@ -45,14 +45,14 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../public/assets/skills/javascript.png'
-                  width='64px'
+                  src='https://i.imgur.com/XIQM827.png'
+                  width='100px'
                   height='64px'
                   alt='/'
                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
+                <h3>Next.JS</h3>
               </div>
             </div>
           </div>
@@ -75,14 +75,14 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../public/assets/skills/tailwind.png'
+                  src='https://i.imgur.com/IGhwxNk.png'
                   width='64px'
                   height='64px'
                   alt='/'
                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Firebase</h3>
+                <h3>MySQL</h3>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../public/assets/skills/firebase.png'
+                  src='https://i.imgur.com/eMXSfHb.png'
                   width='64px'
                   height='64px'
                   alt='/'

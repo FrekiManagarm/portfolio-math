@@ -1,4 +1,5 @@
 import React from 'react'
+import Tilt from 'react-tilt'
 
 const About = () => {
   return (
@@ -34,13 +35,15 @@ const About = () => {
             </p>
           </a>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <img
-            className='rounded-xl'
-            src='https://i.imgur.com/aUWvqAC.jpg'
-            alt='/'
-          />
-        </div>
+        <Tilt>
+            <div data-aos="fade-up" data-aos-duration="500" className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4'>
+            <img
+                className='rounded-xl'
+                src='https://i.imgur.com/aUWvqAC.jpg'
+                alt='/'
+            />
+            </div>
+        </Tilt>
       </div>
     </div>
   )
