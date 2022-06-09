@@ -22,16 +22,3 @@ export default function Home(props) {
     </>
   )
 }
-
-export async function getServerSideProps(ctx) {
-
-  const response = await fetch('http://localhost:8000/api/events-Une?limit=6');
-
-  const data = await response.json();
-
-  return {
-    props: {
-      data
-    }
-  }
-}
