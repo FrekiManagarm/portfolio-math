@@ -15,14 +15,14 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../public/assets/skills/html.png'
+                  src='https://i.imgur.com/QSZW8g0.png'
                   width='64px'
                   height='64px'
                   alt='/'
                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>CSS</h3>
+                <h3>Laravel</h3>
               </div>
             </div>
           </div>
