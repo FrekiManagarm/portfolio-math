@@ -6,9 +6,9 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
-            About
+            A propos
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>Qui je suis</h2>
           <p className='py-2 text-gray-600'>
             // I am not your average developer
           </p>
