@@ -3,6 +3,7 @@ import Image from 'next/image'
 import AOS from 'aos'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar'
+import Main from '../components/Main'
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
         <title>Mathieu Chambaud | Portfolio</title>
       </Head>
       <Navbar />
+      <Main />
     </>
   )
 }
