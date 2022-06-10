@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import Skills from '../components/Skills'
 import About from '../components/About'
+import Contact from '../components/Contact'
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
+      <Contact />
     </>
   )
 }
