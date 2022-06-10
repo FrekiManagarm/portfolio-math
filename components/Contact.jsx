@@ -86,7 +86,7 @@ const Contact = () => {
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>Name</label>
+                    <label className='uppercase text-sm py-2'>Nom</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
@@ -95,7 +95,7 @@ const Contact = () => {
                   </div>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>
-                      Phone Number
+                      Numéro de téléphone
                     </label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
@@ -113,7 +113,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Subject</label>
+                  <label className='uppercase text-sm py-2'>Sujet</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
@@ -129,7 +129,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <button type="submit" className='w-full p-4 text-gray-100 mt-4'>
-                  Send Message
+                  Envoyer
                 </button>
               </form>
             </div>
