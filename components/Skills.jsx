@@ -31,8 +31,8 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image
                   src='https://i.imgur.com/1qHulW6.png'
-                  width='64px'
-                  height='64px'
+                  width='150px'
+                  height='80px'
                   alt='/'
                 />
               </div>
@@ -60,7 +60,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../public/assets/skills/react.png'
+                  src='https://i.imgur.com/LOf73bc.png'
                   width='64px'
                   height='64px'
                   alt='/'

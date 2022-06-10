@@ -48,7 +48,7 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
+                <p className='uppercase pt-8'>Comment me contacter</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/clint-briley-50056920a/'
@@ -91,6 +91,7 @@ const Contact = () => {
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
                       name='name'
+                      placeholder="John Doe"
                     />
                   </div>
                   <div className='flex flex-col'>
@@ -101,6 +102,7 @@ const Contact = () => {
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
                       name='phone'
+                      placeholder="06/07 XX XX XX XX"
                     />
                   </div>
                 </div>
@@ -110,6 +112,7 @@ const Contact = () => {
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
                     name='email'
+                    placeholder="john.doe@icloud.com"
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -118,6 +121,7 @@ const Contact = () => {
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
                     name='subject'
+                    placeholder="Le sujet de votre message ..."
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -126,6 +130,7 @@ const Contact = () => {
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
                     name='message'
+                    placeholder="Votre message pour Mathieu Chambaud"
                   ></textarea>
                 </div>
                 <button type="submit" className='w-full p-4 text-gray-100 mt-4'>
